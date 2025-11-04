@@ -1,8 +1,8 @@
 ---
 title: About Me
 description: There's not much to say.
-image: pages/attachments/about.png
-imageOG: true
+image: "[[attachments/rock.png]]"
+imageOG: false
 noIndex: false
 hideTOC: false
 aliases:
