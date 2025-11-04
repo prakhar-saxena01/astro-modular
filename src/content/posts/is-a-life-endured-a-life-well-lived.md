@@ -19,7 +19,7 @@ draft: false
 Because endurance sounds like: breathing without joy, shadows of living, mechanical continuation, bare survival, and a refusal to collapse.
 If you try to look deeper, beneath the fatigue and desperation, endurance is not the absence of life. Endurance is at the root of life.
 
-Enduring means to refuse to surrender your consciousness to nothingness. It’s what keeps a seed alive underneath the snow. 
+Enduring means refusing to surrender your consciousness to nothingness. It’s what keeps a seed alive underneath the snow. 
 **Though the seed isn't blooming, but its alive, waiting for the spring.**
 You may think you are just surviving, but in the deep crevices of your psyche, something is still breathing, waiting and dreaming. This too is living, quiet and in darkness, but still full of potential.
 
