@@ -1,7 +1,7 @@
 {
   "runWizardOnStartup": false,
   "currentTemplate": "standard",
-  "currentTheme": "nord",
+  "currentTheme": "dracula",
   "customThemeFile": "custom",
   "contentOrganization": "file-based",
   "themeColors": {
