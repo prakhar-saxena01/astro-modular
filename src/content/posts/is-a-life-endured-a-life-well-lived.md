@@ -1,7 +1,7 @@
 ---
 title: Is a life endured, a life well lived?
 date: 2025-11-05
-description: ""
+description: What does it mean to survive? Is that a living? Or is it just holding on to a futile hope
 tags:
   - existence
   - struggles

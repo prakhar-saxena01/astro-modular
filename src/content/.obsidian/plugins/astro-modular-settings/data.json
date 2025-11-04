@@ -134,17 +134,21 @@
   },
   "features": {
     "commandPalette": true,
+    "tableOfContents": true,
     "readingTime": true,
     "linkedMentions": true,
     "linkedMentionsCompact": false,
     "graphView": true,
     "postNavigation": true,
-    "hideScrollBar": true,
+    "hideScrollBar": false,
     "scrollToTop": true,
     "showSocialIconsInFooter": true,
     "profilePicture": false,
     "comments": false,
-    "featureButton": "theme",
+    "featureButton": "mode",
+    "showPostCardCoverImages": "featured-and-posts",
+    "postCardAspectRatio": "og",
+    "customPostCardAspectRatio": "2.5/1",
     "quickActions": {
       "enabled": true,
       "toggleMode": true,
@@ -211,8 +215,8 @@
     }
   },
   "optionalContentTypes": {
-    "projects": false,
-    "docs": false
+    "projects": true,
+    "docs": true
   },
   "availableThemes": "default",
   "customThemes": "",
