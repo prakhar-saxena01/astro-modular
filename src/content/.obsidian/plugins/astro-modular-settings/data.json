@@ -1,7 +1,7 @@
 {
   "runWizardOnStartup": false,
   "currentTemplate": "standard",
-  "currentTheme": "atom",
+  "currentTheme": "gruvbox",
   "customThemeFile": "custom",
   "contentOrganization": "file-based",
   "themeColors": {
@@ -37,7 +37,7 @@
   },
   "navigation": {
     "showNavigation": true,
-    "style": "traditional",
+    "style": "minimal",
     "showMobileMenu": true,
     "pages": [
       {
@@ -47,6 +47,10 @@
       {
         "title": "About",
         "url": "/about"
+      },
+      {
+        "title": "Subjects",
+        "url": "/subjects"
       }
     ],
     "social": []
@@ -59,7 +63,7 @@
       "posts": true,
       "pages": false,
       "projects": false,
-      "docs": false
+      "docs": true
     },
     "sections": {
       "quickActions": true,
@@ -102,7 +106,7 @@
     "tags": true,
     "linkedMentions": {
       "enabled": true,
-      "linkedMentionsCompact": false
+      "linkedMentionsCompact": true
     },
     "graphView": {
       "enabled": true,
@@ -137,7 +141,7 @@
     "tableOfContents": true,
     "readingTime": true,
     "linkedMentions": true,
-    "linkedMentionsCompact": false,
+    "linkedMentionsCompact": true,
     "graphView": true,
     "postNavigation": true,
     "hideScrollBar": false,
@@ -216,7 +220,7 @@
   },
   "optionalContentTypes": {
     "projects": false,
-    "docs": false
+    "docs": true
   },
   "availableThemes": "default",
   "customThemes": "",
