@@ -37,7 +37,7 @@
   },
   "navigation": {
     "showNavigation": true,
-    "style": "minimal",
+    "style": "traditional",
     "showMobileMenu": true,
     "pages": [
       {
@@ -47,10 +47,6 @@
       {
         "title": "About",
         "url": "/about"
-      },
-      {
-        "title": "Subjects",
-        "url": "/subjects"
       }
     ],
     "social": []
@@ -63,7 +59,7 @@
       "posts": true,
       "pages": false,
       "projects": false,
-      "docs": true
+      "docs": false
     },
     "sections": {
       "quickActions": true,
@@ -220,7 +216,7 @@
   },
   "optionalContentTypes": {
     "projects": false,
-    "docs": true
+    "docs": false
   },
   "availableThemes": "default",
   "customThemes": "",

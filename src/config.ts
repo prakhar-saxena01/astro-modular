@@ -260,7 +260,7 @@ export const siteConfig: SiteConfig = {
       // [CONFIG:COMMAND_PALETTE_SEARCH_PROJECTS]
       projects: false,
       // [CONFIG:COMMAND_PALETTE_SEARCH_DOCS]
-      docs: true,
+      docs: false,
     },
     sections: {
       // [CONFIG:COMMAND_PALETTE_SECTIONS_QUICK_ACTIONS]
@@ -305,14 +305,13 @@ export const siteConfig: SiteConfig = {
     // [CONFIG:NAVIGATION_SHOW_NAVIGATION]
     showNavigation: true,
     // [CONFIG:NAVIGATION_STYLE]
-    style: "minimal", // 'minimal' or 'traditional'
+    style: "traditional", // 'minimal' or 'traditional'
     // [CONFIG:NAVIGATION_SHOW_MOBILE_MENU]
     showMobileMenu: true,
     // [CONFIG:NAVIGATION_PAGES]
     pages: [
       { title: "Posts", url: "/posts" },
       { title: "About", url: "/about" },
-      { title: "Subjects", url: "/subjects" },
     ],
     // [CONFIG:NAVIGATION_SOCIAL]
     social: [],
@@ -323,7 +322,7 @@ export const siteConfig: SiteConfig = {
     // [CONFIG:OPTIONAL_CONTENT_TYPES_PROJECTS]
     projects: false, // Enable projects section
     // [CONFIG:OPTIONAL_CONTENT_TYPES_DOCS]
-    docs: true, // Enable documentation section
+    docs: false, // Enable documentation section
   },
 
   // Home Options
