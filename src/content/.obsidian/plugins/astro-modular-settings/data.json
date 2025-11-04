@@ -1,7 +1,7 @@
 {
   "runWizardOnStartup": true,
   "currentTemplate": "standard",
-  "currentTheme": "oxygen",
+  "currentTheme": "atom",
   "customThemeFile": "custom",
   "contentOrganization": "file-based",
   "themeColors": {
@@ -12,10 +12,10 @@
     }
   },
   "siteInfo": {
-    "site": "https://astro-modular.netlify.app",
-    "title": "Astro Modular",
-    "description": "A flexible blog theme designed for Obsidian users.",
-    "author": "David V. Kimball",
+    "site": "https://prakhar.blog",
+    "title": "Prakhar's Blog",
+    "description": "Ruminations of a weird mind",
+    "author": "Prakhar Saxena",
     "language": "en",
     "faviconThemeAdaptive": true,
     "defaultOgImageAlt": "Astro Modular logo."
@@ -29,8 +29,8 @@
   },
   "footer": {
     "enabled": true,
-    "content": "© 2025 {author}. Built with the <a href=\"https://github.com/davidvkimball/astro-modular\" target=\"_blank\">Astro Modular</a> theme.",
-    "showSocialIconsInFooter": true
+    "content": "© 2025 {author}.",
+    "showSocialIconsInFooter": false
   },
   "seo": {
     "defaultOgImageAlt": "Astro Modular logo."
@@ -45,34 +45,15 @@
         "url": "/posts"
       },
       {
-        "title": "Projects",
-        "url": "/projects"
-      },
-      {
         "title": "Docs",
         "url": "/docs"
       },
       {
         "title": "About",
         "url": "/about"
-      },
-      {
-        "title": "GitHub",
-        "url": "https://github.com/davidvkimball/astro-modular"
       }
     ],
-    "social": [
-      {
-        "title": "X",
-        "url": "https://x.com/davidvkimball",
-        "icon": "x-twitter"
-      },
-      {
-        "title": "GitHub",
-        "url": "https://github.com/davidvkimball",
-        "icon": "github"
-      }
-    ]
+    "social": []
   },
   "commandPalette": {
     "enabled": true,
@@ -87,7 +68,7 @@
     "sections": {
       "quickActions": true,
       "pages": true,
-      "social": true
+      "social": false
     },
     "quickActions": {
       "enabled": true,
@@ -99,15 +80,15 @@
   "homeOptions": {
     "featuredPost": {
       "enabled": true,
-      "type": "latest",
-      "slug": "getting-started"
+      "type": "featured",
+      "slug": "is-a-life-endured-a-life-well-lived"
     },
     "recentPosts": {
       "enabled": true,
       "count": 7
     },
     "projects": {
-      "enabled": true,
+      "enabled": false,
       "count": 2
     },
     "docs": {
@@ -157,21 +138,17 @@
   },
   "features": {
     "commandPalette": true,
-    "tableOfContents": true,
     "readingTime": true,
     "linkedMentions": true,
     "linkedMentionsCompact": false,
     "graphView": true,
     "postNavigation": true,
-    "hideScrollBar": false,
+    "hideScrollBar": true,
     "scrollToTop": true,
     "showSocialIconsInFooter": true,
     "profilePicture": false,
     "comments": false,
-    "featureButton": "mode",
-    "showPostCardCoverImages": "featured-and-posts",
-    "postCardAspectRatio": "og",
-    "customPostCardAspectRatio": "2.5/1",
+    "featureButton": "theme",
     "quickActions": {
       "enabled": true,
       "toggleMode": true,
@@ -221,7 +198,7 @@
     }
   },
   "deployment": {
-    "platform": "netlify"
+    "platform": "vercel"
   },
   "pluginConfig": {
     "obsidianSettings": {
@@ -238,7 +215,7 @@
     }
   },
   "optionalContentTypes": {
-    "projects": true,
+    "projects": false,
     "docs": true
   },
   "availableThemes": "default",

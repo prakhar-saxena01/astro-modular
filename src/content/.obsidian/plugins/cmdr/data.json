@@ -2,7 +2,20 @@
   "confirmDeletion": true,
   "showAddCommand": true,
   "debug": false,
-  "editorMenu": [],
+  "editorMenu": [
+    {
+      "id": "astro-composer:standardize-properties",
+      "icon": "file-check",
+      "name": "Astro Composer: Standardize Properties",
+      "mode": "any"
+    },
+    {
+      "id": "astro-modular-settings:open-settings",
+      "icon": "settings-2",
+      "name": "Astro Modular Settings: Open Astro Modular Settings",
+      "mode": "any"
+    }
+  ],
   "fileMenu": [],
   "leftRibbon": [],
   "rightRibbon": [],

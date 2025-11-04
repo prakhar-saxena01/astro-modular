@@ -1,6 +1,6 @@
 {
   "showInlineTitle": false,
-  "promptDelete": true,
+  "promptDelete": false,
   "showIndentGuide": false,
   "attachmentFolderPath": "./attachments",
   "userIgnoreFilters": [
@@ -38,6 +38,6 @@
   ],
   "newFileLocation": "folder",
   "newFileFolderPath": "posts",
-  "newLinkFormat": "absolute",
+  "newLinkFormat": "relative",
   "mobileQuickRibbonItem": "command-palette:Open command palette"
 }
