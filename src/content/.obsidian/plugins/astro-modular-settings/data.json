@@ -76,7 +76,7 @@
   "homeOptions": {
     "featuredPost": {
       "enabled": true,
-      "type": "featured",
+      "type": "latest",
       "slug": "is-a-life-endured-a-life-well-lived"
     },
     "recentPosts": {
@@ -88,7 +88,7 @@
       "count": 2
     },
     "docs": {
-      "enabled": true,
+      "enabled": false,
       "count": 3
     },
     "blurb": {
@@ -115,7 +115,7 @@
     "postCardAspectRatio": "og",
     "customPostCardAspectRatio": "2.5/1",
     "comments": {
-      "enabled": false,
+      "enabled": true,
       "provider": "giscus",
       "rawScript": "",
       "repo": "davidvkimball/astro-modular",
@@ -144,7 +144,7 @@
     "scrollToTop": true,
     "showSocialIconsInFooter": true,
     "profilePicture": false,
-    "comments": false,
+    "comments": true,
     "featureButton": "mode",
     "showPostCardCoverImages": "featured-and-posts",
     "postCardAspectRatio": "og",
@@ -180,7 +180,7 @@
       "style": "circle"
     },
     "comments": {
-      "enabled": false,
+      "enabled": true,
       "provider": "giscus",
       "rawScript": "",
       "repo": "davidvkimball/astro-modular",
@@ -215,7 +215,7 @@
     }
   },
   "optionalContentTypes": {
-    "projects": true,
+    "projects": false,
     "docs": false
   },
   "availableThemes": "default",

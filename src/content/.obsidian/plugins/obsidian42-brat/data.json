@@ -41,7 +41,7 @@
   "themesList": [
     {
       "repo": "davidvkimball/obsidian-oxygen",
-      "lastUpdate": "22900134"
+      "lastUpdate": "22867559"
     }
   ],
   "updateAtStartup": true,
@@ -53,5 +53,6 @@
   "debuggingMode": false,
   "notificationsEnabled": true,
   "personalAccessToken": "",
-  "selectLatestPluginVersionByDefault": false
+  "selectLatestPluginVersionByDefault": false,
+  "allowIncompatiblePlugins": false
 }
