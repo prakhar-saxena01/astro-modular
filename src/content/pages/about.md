@@ -1,10 +1,6 @@
 ---
 title: Ruminations Of A Weird Mind
 description: Maybe only the weird still wonder
-image: "[[../posts/attachments/galaxy.png]]"
-imageAlt: universe
-imageOG: true
-hideCoverImage: false
 noIndex: false
 hideTOC: false
 aliases:
