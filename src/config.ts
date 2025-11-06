@@ -331,7 +331,7 @@ export const siteConfig: SiteConfig = {
       // [CONFIG:HOME_OPTIONS_FEATURED_POST_ENABLED]
       enabled: true, // Show featured post on homepage
       // [CONFIG:HOME_OPTIONS_FEATURED_POST_TYPE]
-      type: "featured", // "latest" or "featured"
+      type: "latest", // "latest" or "featured"
       // [CONFIG:HOME_OPTIONS_FEATURED_POST_SLUG]
       slug: "is-a-life-endured-a-life-well-lived", // Slug of post after '/posts/' to be featured (e.g. "post-title"). Only used when type is "featured"
     },

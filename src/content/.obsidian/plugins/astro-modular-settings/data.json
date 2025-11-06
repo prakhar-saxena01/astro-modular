@@ -76,7 +76,7 @@
   "homeOptions": {
     "featuredPost": {
       "enabled": true,
-      "type": "featured",
+      "type": "latest",
       "slug": "is-a-life-endured-a-life-well-lived"
     },
     "recentPosts": {
