@@ -39,5 +39,11 @@
   "newFileLocation": "folder",
   "newFileFolderPath": "posts",
   "newLinkFormat": "relative",
-  "mobileQuickRibbonItem": "command-palette:Open command palette"
+  "mobileQuickRibbonItem": "command-palette:Open command palette",
+  "pdfExportSettings": {
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "2",
+    "downscalePercent": 100
+  }
 }
