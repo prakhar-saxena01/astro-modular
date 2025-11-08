@@ -20,7 +20,7 @@ draft: false
 aliases:
   - why-do-we-travel
 ---
-# **Why Do We Travel?**
+## **Why Do We Travel?**
 There comes a time in every life when the air inside the room grows too familiar to breathe.
 The walls begin to echo the sound of your own thoughts, and even the sunlight looks rehearsed, falling in the same rhythm, tracing the same dust motes.
 
@@ -35,7 +35,7 @@ The desire to travel begins there, not as a plan or an itinerary, but as a _trem
 **We don’t long for destinations.**
 We long for edges, the places where we can feel ourselves stretch against the fabric of existence.
 
-# **The Pulse Beneath The Skin**
+## **The Pulse Beneath The Skin**
 To travel is to remember that you are not static.
 ==You are not a tree fixed in the ground by its roots.==
 ==You are like the winds, rivers and the seas, never meant to stay still.==
@@ -49,7 +49,7 @@ Where every street feels like a possibility and every stranger a mirror.
 ***Movement breaks the illusion of permanence.***
 It reminds us that life is ever-moving, that the world in its essence, is motion pretending to be still.
 
-# **The Myth of Elsewhere**
+## **The Myth of Elsewhere**
 We romanticize "elsewhere" as if geography could cure despair.
 ==We imagine that joy must exist in some other climate, that meaning waits for us at the edge of another city's skyline.==
 
@@ -67,7 +67,7 @@ Maybe that's why travellers often speak of 'feeling alive' in new places.
 It's not novelty that stirs them. 
 ==It's the disillusionment, the sudden awareness that world is not enough to hold their contradictions.==
 
-# **The Inner Geography**
+## **The Inner Geography**
 Every journey is a translation of the psyche. 
 The cities we love mirror our inner landscapes.
 The routes we take reveal the maps of our longing.
