@@ -1,5 +1,5 @@
 ---
-title: Why do we travel?
+title: Why Do We Desire to Travel?
 date: 2025-11-07
 description: Are we just nomads at heart or is this something much much deeper than a desire to long for something new
 tags:
