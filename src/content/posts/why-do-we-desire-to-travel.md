@@ -99,7 +99,7 @@ The wind doesn't care how often you doubted yourself.
 **In movement, you are forgiven by anonymity.**
 
 That's why the most profound moments of travel are not about what you see but what you unsee.
-**The dissolving of definitions, The softening of 'I'.**
+The dissolving of definitions, The softening of 'I'.
 
 You stand on a shamshan ghat and watch the endless fires devour the night.
 You breathe in the scent of wood and sandal. You feel both small and infinite.
