@@ -17,6 +17,8 @@ hideCoverImage: false
 hideTOC: false
 targetKeyword: travel discovery
 draft: false
+aliases:
+  - why-do-we-travel
 ---
 # **Why Do We Travel?**
 There comes a time in every life when the air inside the room grows too familiar to breathe.
