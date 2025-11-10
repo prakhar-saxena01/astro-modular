@@ -9,7 +9,7 @@ tags:
   - celebration
   - mindfulness
   - presence
-image: celebration.png
+image: posts/attachments/celebration.png
 imageAlt: celebration of life
 imageOG: true
 hideCoverImage: false
