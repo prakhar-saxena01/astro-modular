@@ -57,8 +57,8 @@ There is a tenderness in surviving the storm, not because it ends, but because i
 
 You learn that the point was never to avoid the darkness, but to see the light differently once you stepped out of it.
 
-**==Celebration then becomes an act of rebellion.**==  
-==**A refusal to let suffering define the meaning of being alive.==**
+**==Celebration then becomes an act of rebellion.==**  
+**==A refusal to let suffering define the meaning of being alive.==**
 
 It’s not denial. It’s defiance.  
 To laugh while grieving, to plant something after loss, to love again after disappointment, these are acts of holy defiance.
@@ -114,7 +114,7 @@ When you listen to music and feel goosebumps, that’s not your joy, it’s the 
 **We are instruments through which existence experiences itself.**  
 We are flares in the same night sky, burning separately, illuminating together.
 
-==**To love someone, to understand, to forgive, all are quiet festivals of existence.**==  
+**==To love someone, to understand, to forgive, all are quiet festivals of existence.==**  
 When we share the light, the world expands.
 ## **The Deafening Silence**
 True celebration happens in silence, not the outward kind, but the inward expansion. You sit in stillness and feel your pulse. You listen to your breath. 
