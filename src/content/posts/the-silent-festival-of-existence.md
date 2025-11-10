@@ -33,8 +33,6 @@ Sometimes it means smiling at the absurdity of existence, how fragile it is, how
 
 You learn, slowly, that joy doesn’t have to arrive like a festival. It can come quietly, disguised as survival.  
 ***Celebration begins with the choice to stay.***
-
----
 ## **The Everyday Sacred**
 There was a time when I believed celebration needed reason. That one must earn it. I thought joy came after achievement, after healing, after clarity.
 
@@ -54,8 +52,6 @@ The sun rises again and again, and yet never loses its charm.
 
 Celebration is the art of repetition without boredom.  
 **The mundane also holds the sacred.**
-
----
 ## **Gratitude**
 There is a tenderness in surviving the storm, not because it ends, but because it teaches you to stand in rain and still feel grateful.
 
@@ -70,8 +66,6 @@ To laugh while grieving, to plant something after loss, to love again after disa
 And maybe that’s real gratitude.
 *To keep loving the world even when it forgets to love you back.*  
 And so gratitude becomes a lens. You start to see abundance where you once saw lack.
-
----
 ## **Celebration as Defiance**
 The ordinary becomes extraordinary when you stop demanding it be otherwise.  
 Celebration begins the moment comparison ends.
@@ -92,8 +86,6 @@ To celebrate life is to remember all of it and say, _thank you._
 **Gratitude is not an emotion, but an orientation.**  
 It’s a way of walking through the world, open and receptive.  
 You start to notice that beauty was there all along, just needed a witness.
-
----
 ## **The Inevitable Mortality**
 There are days when celebration feels impossible.  
 When the body aches, when plans collapse, when the air grows heavy with disappointment.  
@@ -115,8 +107,6 @@ The more aware you are of endings, the more reverent you become of beginnings.
 So when I say, _I celebrate life_, I don’t mean I deny loss.  
 I mean that it’s worth celebrating its beauty, while it lasted.  
 **The rebellion of merely existing amidst all the ruins of creation.**
-
----
 ## **The Communion of Being**
 Sometimes I think life moves through us, expressing itself in its full glory.  
 When you listen to music and feel goosebumps, that’s not your joy, it’s the universe recognizing itself in vibration.
@@ -126,8 +116,6 @@ We are flares in the same night sky, burning separately, illuminating together.
 
 ==**To love someone, to understand, to forgive, all are quiet festivals of existence.**==  
 When we share the light, the world expands.
-
----
 ## **The Deafening Silence**
 True celebration happens in silence, not the outward kind, but the inward expansion. You sit in stillness and feel your pulse. You listen to your breath. 
  
@@ -141,8 +129,6 @@ It’s not about pleasure or achievement anymore; it’s about alignment; *the B
 
 In stillness, life becomes audible. You begin to hear what was always telling you,
 *'Your existence is a miracle'*; because it is.
-
----
 ## **The Ongoing Prayer**
 Life will not always be kind, but you can be.  
 So here I am, standing in the same world that once felt too heavy, watching light spill again through the window.
