@@ -64,15 +64,6 @@
       "key": "S"
     }
   ],
-  "obsidian-git:push": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "S"
-    }
-  ],
   "insert-unsplash-image:insert": [
     {
       "modifiers": [
@@ -169,5 +160,13 @@
       "key": "K"
     }
   ],
-  "editor:insert-link": []
+  "editor:insert-link": [],
+  "obsidian-git:push": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": " "
+    }
+  ]
 }
