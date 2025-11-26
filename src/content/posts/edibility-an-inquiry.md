@@ -174,7 +174,7 @@ A crop taken, renamed, repackaged, its original context erased.
 ==So when we ask, "what is food," we are also asking, "who has the right to define it?"==
 
 Knowledge of food, like all knowledge, is political.  
-The grandmother’s intuition about fermentation, the farmer’s sense of soil, the monk’s dietary rhythms—all are dismissed when they cannot be quantified.
+The grandmother’s intuition about fermentation, the farmer’s sense of soil, the monk’s dietary rhythms; all are dismissed when they cannot be quantified.
 
 And so, we eat by numbers now, calories, macros, nutrients.  
 The body becomes a ledger of measurement, not a field of intuition.
@@ -212,7 +212,7 @@ Through food, we understand what it means for the world to change state, to beco
 ==That is also what a thought does. A new idea enters the mind, meets resistance, breaks down, integrates, and becomes part of the self.==
 
 To eat, to think, and to love, all are acts of digestion.  
-And just as not all foods nourish, not all thoughts do—some poison slowly, some sustain for life.
+And just as not all foods nourish, not all thoughts do; some poison slowly, some sustain for life.
 The wise eater, like the wise thinker, chooses carefully, not out of fear, but reverence.
 ## Sprout and Rot
 Food exists in time. It sprouts, ripens and rots.  
