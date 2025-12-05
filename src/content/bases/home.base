@@ -94,6 +94,12 @@ views:
     order:
       - title
       - formula.Slug
+      - order
+      - image
+      - imageAlt
+      - draft
+      - category
+      - description
     sort:
       - property: lastModified
         direction: DESC
