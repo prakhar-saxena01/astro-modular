@@ -138,6 +138,7 @@ const onlyBlurbContent = contentTypesCount === 0 && siteConfig.homeOptions.blurb
 
 // Generate SEO data for homepage
 const seoData = generateHomeSEO(Astro.url.href);
+if (siteConfig.homepageTitle) seoData.title = siteConfig.homepageTitle;
 
 // Structured data for the website
 const structuredData = {

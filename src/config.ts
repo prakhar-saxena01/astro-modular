@@ -15,6 +15,8 @@ export interface SiteConfig {
   // Site Information
   site: string;
   title: string;
+  /** Homepage-specific meta title. Falls back to title if empty. */
+  homepageTitle: string;
   description: string;
   author: string;
   language: string;
@@ -184,6 +186,8 @@ export const siteConfig: SiteConfig = {
   site: "https://astro-modular.netlify.app",
   // [CONFIG:SITE_TITLE]
   title: "Astro Modular",
+  // [CONFIG:HOMEPAGE_TITLE]
+  homepageTitle: "",
   // [CONFIG:SITE_DESCRIPTION]
   description: "A flexible blog theme designed for Obsidian users.",
   // [CONFIG:SITE_AUTHOR]

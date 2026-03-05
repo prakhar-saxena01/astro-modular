@@ -212,14 +212,14 @@ import Icon from './Icon.astro';
     
     // Show loading state immediately
     container.innerHTML = `
-      <div class="flex items-center justify-center h-full text-primary-500 dark:text-primary-400">
-        <div class="text-center">
-          <div class="animate-spin w-8 h-8 mx-auto mb-4 opacity-50">
+      <div style="display:flex;align-items:center;justify-content:center;height:100%;text-align:center;" class="text-primary-500 dark:text-primary-400">
+        <div>
+          <div class="animate-spin" style="width:2rem;height:2rem;margin:0 auto 1rem;opacity:0.5;">
             <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
               <path d="M21 12a9 9 0 11-6.219-8.56"/>
             </svg>
           </div>
-          <p class="text-sm">Loading graph...</p>
+          <p style="font-size:0.875rem;">Loading graph...</p>
         </div>
       </div>
     `;
@@ -247,13 +247,13 @@ import Icon from './Icon.astro';
       .catch(error => {
         console.warn('Could not load graph data:', error);
         container.innerHTML = `
-          <div class="flex items-center justify-center h-full text-primary-500 dark:text-primary-400">
-            <div class="text-center">
-              <svg class="w-12 h-12 mx-auto mb-4 opacity-50" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <div style="display:flex;align-items:center;justify-content:center;height:100%;text-align:center;" class="text-primary-500 dark:text-primary-400">
+            <div>
+              <svg style="width:3rem;height:3rem;margin:0 auto 1rem;opacity:0.5;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"/>
               </svg>
-              <p class="text-lg font-medium">Graph data not available</p>
-              <p class="text-sm mt-2">Make sure to run the build process to generate graph data</p>
+              <p style="font-size:1.125rem;font-weight:500;">Graph data not available</p>
+              <p style="font-size:0.875rem;margin-top:0.5rem;">Make sure to run the build process to generate graph data</p>
             </div>
           </div>
         `;
@@ -266,7 +266,8 @@ import Icon from './Icon.astro';
     const height = container.offsetHeight;
     const radiusForce = 300;
     let wasDragged = false;
-    
+    let isDraggingNode = false;
+
     // Clear container
     container.innerHTML = '';
     
@@ -281,7 +282,8 @@ import Icon from './Icon.astro';
         d3.forceLink(links).id((d: any) => d.id).distance(100)
       )
       .force("charge", d3.forceManyBody().strength(-radiusForce))
-      .force("center", d3.forceCenter(width / 2, height / 2))
+      .force("x", d3.forceX(width / 2).strength(0.05))
+      .force("y", d3.forceY(height / 2).strength(0.05))
       .force("collision", d3.forceCollide().radius((d: any) => d.radius + 5));
 
     // Create SVG
@@ -302,13 +304,12 @@ import Icon from './Icon.astro';
         return -event.deltaY * 0.001;
       })
       .filter((event) => {
-        // Only allow zoom on wheel events, prevent zoom on drag
+        if (isDraggingNode) return false;
         if (event.type === 'wheel') return true;
         if (event.type === 'mousedown') {
-          // Allow pan on empty space, but not on nodes
           return !event.target.closest('g[data-id]');
         }
-        return false; // Block all other events
+        return false;
       })
       .on("start", function(event) {
         // Show grabbing cursor only when starting to pan on empty space
@@ -363,9 +364,9 @@ import Icon from './Icon.astro';
             .drag<SVGGElement, GraphNode>()
             .on("start", function (event) {
               wasDragged = false;
-              // Use default cursor during drag
+              isDraggingNode = true;
               if (svg) svg.style('cursor', 'default');
-              if (!event.active) simulation!.alphaTarget(0.3).restart();
+              if (!event.active) simulation!.alphaTarget(0.1).restart();
               event.subject.fx = event.subject.x;
               event.subject.fy = event.subject.y;
             })
@@ -375,7 +376,7 @@ import Icon from './Icon.astro';
               d.fy = event.y;
             })
             .on("end", function (event) {
-              // Restore default cursor after drag
+              isDraggingNode = false;
               if (svg) svg.style('cursor', 'default');
               if (!event.active) simulation!.alphaTarget(0);
               event.subject.fx = null;

@@ -161,7 +161,8 @@ const shouldShowGraph = true;
         d3.forceCollide((d) => d.radius + 8),
       )
       .force("radial", d3.forceRadial(radiusForce))
-      .force("center", d3.forceCenter(0, 0));
+      .force("x", d3.forceX(0).strength(0.05))
+      .force("y", d3.forceY(0).strength(0.05));
 
     // Create SVG
     svg = d3
@@ -231,7 +232,7 @@ const shouldShowGraph = true;
             wasDragged = false;
             // Use default cursor when starting to drag node
             if (svg) svg.style('cursor', 'default');
-            if (!event.active) simulation!.alphaTarget(0.3).restart();
+            if (!event.active) simulation!.alphaTarget(0.1).restart();
             event.subject.fx = event.subject.x;
             event.subject.fy = event.subject.y;
           })
