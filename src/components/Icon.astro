@@ -6,9 +6,14 @@ export interface Props {
   name: string;
   class?: string;
   size?: number;
+  title?: string;
 }
 
-const { name, class: className = '', size = 24 } = Astro.props;
+const { name, class: className = '', size = 24, title } = Astro.props;
+
+function escapeHtml(s: string): string {
+  return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+}
 
 // Add ALL Font Awesome brand icons to library at once
 library.add(fab);
@@ -100,7 +105,8 @@ const fallbackPath = icons[fallbackIcon];
     stroke-linecap="round" 
     stroke-linejoin="round" 
     class={className}
-    set:html={iconPath}
+    aria-hidden={title ? undefined : true}
+    set:html={title ? `<title>${escapeHtml(title)}</title>${iconPath}` : iconPath}
   />
 ) : fallbackPath ? (
   <div class={className} style={`width: ${size}px; height: ${size}px; display: inline-flex; align-items: center; justify-content: center; transform: scale(0.7);`}>
@@ -113,7 +119,8 @@ const fallbackPath = icons[fallbackIcon];
       stroke-width="2" 
       stroke-linecap="round" 
       stroke-linejoin="round"
-      set:html={fallbackPath}
+      aria-hidden={title ? undefined : true}
+      set:html={title ? `<title>${escapeHtml(title)}</title>${fallbackPath}` : fallbackPath}
     />
   </div>
 ) : null}
