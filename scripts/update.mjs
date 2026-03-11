@@ -304,9 +304,9 @@ async function main() {
   console.log('====================================');
   console.log('\n  Next steps:');
   console.log('  1. Open your vault in Obsidian');
-  console.log('  2. Go to Astro Modular Settings');
-  console.log('  3. Click "Apply all settings" to write');
-  console.log('     your saved settings to the new config.ts');
+  console.log('  2. Go to Astro Modular Settings > Advanced tab');
+  console.log('  3. Click "Apply to config.ts" under "Apply all settings"');
+  console.log('     to write your saved settings to the new config.ts');
   console.log('  4. Run `pnpm dev` to verify everything works');
   console.log('');
 }
