@@ -29,6 +29,7 @@
   "publishMode": true,
   "defaultSort": "issues-desc",
   "showRibbonIcon": true,
+  "exportFormat": "csv",
   "minContentLength": 300,
   "keywordDensityMin": 1,
   "keywordDensityMax": 2,
@@ -93,7 +94,7 @@
         "keywordDensity": [
           {
             "passed": false,
-            "message": "Keyword density too low: 0.3%",
+            "message": "Keyword density too low: 0.0%",
             "suggestion": "Aim for at least 1% density",
             "severity": "warning"
           }
