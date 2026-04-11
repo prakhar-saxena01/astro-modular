@@ -788,72 +788,78 @@ export function remarkStandardLinks() {
           // Convert .md file references to proper URLs based on collection
           else if (node.url.endsWith(".md") || node.url.includes(".md#")) {
             let baseUrl = "";
+            // Strip .md extension and anything after (anchor handled separately via `anchor`)
+            const strippedUrl = node.url.replace(/\.md.*$/, "");
 
-            // Determine collection and URL based on path structure
-            if (node.url.startsWith("special/")) {
-              // Special pages: handle special routing
-              const specialPath = node.url
-                .replace("special/", "")
-                .replace(/\.md.*$/, "");
-              if (specialPath === "home") {
-                baseUrl = "/"; // Homepage
-              } else if (specialPath === "404") {
-                baseUrl = "/404"; // 404 page
-              } else {
-                // Other special pages - use normal page routing
-                baseUrl = `/${specialPath}`;
-              }
-            } else if (linkText === "homepage") {
+            // Determine collection and URL based on path structure.
+            // Each branch accepts both `foo/` and `/foo/` variants, strips .md first,
+            // then strips trailing `/index` for folder-based content.
+            if (linkText === "homepage") {
               // Handle special homepage marker
               baseUrl = "/";
             } else if (linkText === "404") {
               // Handle special 404 marker
               baseUrl = "/404";
-            } else if (node.url.startsWith("posts/")) {
-              // Posts: /posts/slug/ (handle posts/ prefixed URLs WITH .md extension)
-              // Extract path and handle anchor properly
-              let postPath = node.url.replace("posts/", "").replace(/\.md.*$/, "");
-              // Remove /index if present
+            } else if (strippedUrl.startsWith("special/") || strippedUrl.startsWith("/special/")) {
+              // Special pages: handle special routing (accepts both with/without leading slash)
+              const specialPath = strippedUrl.replace(/^\/?special\//, "").replace(/\/index$/, "");
+              if (specialPath === "home") {
+                baseUrl = "/"; // Homepage
+              } else if (specialPath === "404") {
+                baseUrl = "/404"; // 404 page
+              } else if (specialPath === "projects") {
+                baseUrl = "/projects"; // Projects index
+              } else if (specialPath === "docs") {
+                baseUrl = "/docs"; // Docs index
+              } else {
+                // Other special pages - use normal page routing
+                baseUrl = `/${specialPath}`;
+              }
+            } else if (strippedUrl.startsWith("posts/") || strippedUrl.startsWith("/posts/")) {
+              // Posts: /posts/slug/ (accepts both with/without leading slash)
+              let postPath = strippedUrl.replace(/^\/?posts\//, "");
+              // Remove /index for folder-based posts
               if (postPath.endsWith("/index") && postPath.split("/").length === 2) {
-                postPath = postPath.replace("/index", "");
+                postPath = postPath.replace(/\/index$/, "");
               }
               baseUrl = `/posts/${postPath}`;
-            } else if (node.url.startsWith("pages/")) {
-              // Pages: /slug/ (no prefix) - use URL mapping
-              baseUrl = mapRelativeUrlToSiteUrl(
-                node.url.replace(/\.md.*$/, "")
-              );
-            } else if (node.url.startsWith("/pages/")) {
-              // Pages: /slug/ (no prefix) - use URL mapping
-              baseUrl = mapRelativeUrlToSiteUrl(node.url);
-            } else if (node.url.startsWith("/special/")) {
-              // Special pages: handle special routing
-              baseUrl = mapRelativeUrlToSiteUrl(node.url);
-            } else if (node.url.startsWith("special/")) {
-              // Special pages: handle special routing
-              baseUrl = mapRelativeUrlToSiteUrl(node.url);
-            } else if (node.url.startsWith("projects/")) {
+            } else if (strippedUrl.startsWith("pages/") || strippedUrl.startsWith("/pages/")) {
+              // Pages: /slug/ (no /pages prefix in final URL)
+              let pagePath = strippedUrl.replace(/^\/?pages\//, "");
+              if (pagePath.endsWith("/index")) {
+                pagePath = pagePath.replace(/\/index$/, "");
+              }
+              baseUrl = pagePath === "" ? "/" : `/${pagePath}`;
+            } else if (strippedUrl.startsWith("projects/") || strippedUrl.startsWith("/projects/")) {
               // Projects: /projects/slug/
-              baseUrl = `/${node.url.replace(/\.md.*$/, "")}`;
-              // Remove /index for folder-based projects
-              // Pattern: /projects/folder-name/index -> /projects/folder-name
-              if (
-                baseUrl.endsWith("/index") &&
-                baseUrl.split("/").length === 4
-              ) {
-                baseUrl = baseUrl.replace("/index", "");
+              let projectPath = strippedUrl.replace(/^\/?projects\//, "");
+              if (projectPath.endsWith("/index") && projectPath.split("/").length === 2) {
+                projectPath = projectPath.replace(/\/index$/, "");
               }
-            } else if (node.url.startsWith("docs/")) {
+              baseUrl = `/projects/${projectPath}`;
+            } else if (strippedUrl.startsWith("docs/") || strippedUrl.startsWith("/docs/")) {
               // Docs: /docs/slug/
-              baseUrl = `/${node.url.replace(/\.md.*$/, "")}`;
-              // Remove /index for folder-based docs
-              // Pattern: /docs/folder-name/index -> /docs/folder-name
-              if (
-                baseUrl.endsWith("/index") &&
-                baseUrl.split("/").length === 4
-              ) {
-                baseUrl = baseUrl.replace("/index", "");
+              let docPath = strippedUrl.replace(/^\/?docs\//, "");
+              if (docPath.endsWith("/index") && docPath.split("/").length === 2) {
+                docPath = docPath.replace(/\/index$/, "");
               }
+              baseUrl = `/docs/${docPath}`;
+            } else if (strippedUrl.startsWith("../") || strippedUrl.startsWith("./")) {
+              // Relative path (e.g., Obsidian exports like `../sibling-post/index.md`).
+              // Strip leading ../ and ./ segments; resolve against the current collection.
+              let cleanPath = strippedUrl.replace(/^(?:\.\.\/)+/, "").replace(/^\.\//, "");
+              if (cleanPath.endsWith("/index") && cleanPath.split("/").length === 2) {
+                cleanPath = cleanPath.replace(/\/index$/, "");
+              }
+              // Determine collection from current file's path; default to posts.
+              let collection: "posts" | "pages" | "projects" | "docs" = "posts";
+              if (file && (file as any).path) {
+                const normalizedPath = String((file as any).path).replace(/\\/g, "/");
+                if (normalizedPath.includes("/pages/")) collection = "pages";
+                else if (normalizedPath.includes("/projects/")) collection = "projects";
+                else if (normalizedPath.includes("/docs/")) collection = "docs";
+              }
+              baseUrl = collection === "pages" ? `/${cleanPath}` : `/${collection}/${cleanPath}`;
             } else {
               // Direct .md reference without collection prefix - check for special pages first
               if (linkText === "special/home") {
