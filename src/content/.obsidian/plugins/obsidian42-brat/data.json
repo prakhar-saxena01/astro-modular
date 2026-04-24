@@ -19,7 +19,7 @@
     },
     {
       "repo": "davidvkimball/obsidian-alias-file-name-history",
-      "version": "latest"
+      "version": ""
     },
     {
       "repo": "davidvkimball/obsidian-seo",
@@ -41,7 +41,7 @@
   "themesList": [
     {
       "repo": "davidvkimball/obsidian-oxygen",
-      "lastUpdate": "23704433"
+      "lastUpdate": "23992098"
     }
   ],
   "updateAtStartup": true,
