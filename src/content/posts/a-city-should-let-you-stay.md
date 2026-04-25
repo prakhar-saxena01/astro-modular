@@ -15,6 +15,8 @@ hideTOC: false
 targetKeyword: third space
 draft: false
 ---
+## Introduction
+
 You can spend an entire day in a modern city and still feel like you were mostly processed. Buy coffee. Move along. Book a slot. Scan a QR code. Leave when your time is up. There are people everywhere, but a lot of urban life now runs on a subtle clock. If you are not spending, commuting, or working, your presence starts to look unnecessary.
 
 That is what makes the whole third-space conversation feel bigger than a design trend. Most people are not asking for some cinematic town square full of string lights and perfect civic life. They are asking for somewhere to be. Somewhere between home and work that does not demand a purchase every forty minutes. Somewhere you can sit, look up, run into familiar faces, maybe talk, maybe not, and not feel like you are overstaying your welcome.
