@@ -1,7 +1,7 @@
 ---
 title: A city should let you stay
 date: 2026-04-24
-description: ""
+description: What does it mean to live beyond work and rest?
 tags:
   - third-space
   - city-life
