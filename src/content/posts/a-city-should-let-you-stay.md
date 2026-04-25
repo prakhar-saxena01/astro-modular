@@ -13,7 +13,7 @@ imageOG: true
 hideCoverImage: false
 hideTOC: false
 targetKeyword: third space
-draft: true
+draft: false
 ---
 You can spend an entire day in a modern city and still feel like you were mostly processed. Buy coffee. Move along. Book a slot. Scan a QR code. Leave when your time is up. There are people everywhere, but a lot of urban life now runs on a subtle clock. If you are not spending, commuting, or working, your presence starts to look unnecessary.
 
