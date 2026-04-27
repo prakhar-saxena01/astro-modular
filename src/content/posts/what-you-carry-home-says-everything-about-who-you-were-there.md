@@ -74,7 +74,7 @@ Forget the romanticisation for a moment. Traditional handicrafts are knowledge s
 When you buy a genuine handicraft, you are funding the continued existence of a knowledge system that otherwise has no economic reason to survive. That is the actual purchase. The object is almost beside the point.
 
 ![Hands shaping a clay pot on a pottery wheel](https://images.unsplash.com/photo-1753164725860-ffcd260b7b32?auto=format&fit=crop&w=1200&q=80)
-*The object is a knowledge system taking physical form — what you are buying is the accumulated skill, not just the clay.
+*The object is a knowledge system taking physical form what you are buying is the accumulated skill, not just the clay.
 
 ## The Employment Argument Is Structural, Not Sentimental
 
@@ -85,7 +85,7 @@ Flip to a handmade one, and the chain nearly inverts. The maker (in much of Sout
 The money moves either way. The only question is where it lands.
 
 ![Woman working on a piece of fabric by hand](https://plus.unsplash.com/premium_photo-1664197370095-f7af07a8889b?auto=format&fit=crop&w=1200&q=80)
-*In many craft economies, the maker captures the largest share of the value — if buyers choose to reach her.
+*In many craft economies, the maker captures the largest share of the value if buyers choose to reach her.
 ## The Sustainability Case Is Less Romantic Than It Sounds
 
 Traditional craft materials tend to be natural and local out of necessity, not ideology. Dyes from pomegranate rinds and indigo plants. Clay from riverbeds. Grass and cane from forests that local communities have managed for generations. The carbon footprint of a hand-thrown pot from a local kiln is not in the same conversation as an injection-moulded plastic replica of itself, shipped across several time zones.
@@ -132,7 +132,7 @@ Reframing it as an act of investment in a tradition, in a livelihood, in the sur
 
 ## The Thing Worth Carrying Home
 
-The answer to "what souvenir should I buy?" is something that could not have been made anywhere else, by anyone else, in any other way — something that required real skill, materials from the specific geography of that place, and time measured in generations rather than production runs. Something that puts money into the hands of the person who actually made it, rather than a supply chain that treats their culture as raw material to process.
+The answer to "what souvenir should I buy?" is something that could not have been made anywhere else, by anyone else, in any other way something that required real skill, materials from the specific geography of that place, and time measured in generations rather than production runs. Something that puts money into the hands of the person who actually made it, rather than a supply chain that treats their culture as raw material to process.
 
 That standard is met every day, in markets and workshops and cooperative stalls across the world. The object exists. The maker exists. The story is there to be asked for.
 
