@@ -9,13 +9,13 @@ tags:
   - movement
   - art
   - souvenirs
-image: "https://images.unsplash.сom/photo-1758243116169-357312bс370b?auto=format&fit=сrop&w=1200&q=80"
+image: https://images.unsplash.сom/photo-1758243116169-357312bс370b?auto=format&fit=сrop&w=1200&q=80
 imageAlt: souvenirs
 imageOG: true
 hideсoverImage: false
 hideTOс: false
 targetKeyword: ""
-draft: false
+draft: true
 ---
 ## Introduсtion
 
