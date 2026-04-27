@@ -118,18 +118,18 @@
       "enabled": false,
       "provider": "giscus",
       "rawScript": "",
-      "repo": "davidvkimball/astro-modular",
-      "repoId": "R_kgDOPllfKw",
-      "category": "General",
-      "categoryId": "DIC_kwDOPllfK84CvUpx",
-      "mapping": "pathname",
-      "strict": "0",
-      "reactions": "1",
-      "metadata": "0",
-      "inputPosition": "bottom",
-      "theme": "preferred_color_scheme",
-      "lang": "en",
-      "loading": "lazy"
+      "repo": "",
+      "repoId": "",
+      "category": "",
+      "categoryId": "",
+      "mapping": "",
+      "strict": "",
+      "reactions": "",
+      "metadata": "",
+      "inputPosition": "",
+      "theme": "",
+      "lang": "",
+      "loading": ""
     }
   },
   "features": {
@@ -183,18 +183,18 @@
       "enabled": false,
       "provider": "giscus",
       "rawScript": "",
-      "repo": "davidvkimball/astro-modular",
-      "repoId": "R_kgDOPllfKw",
-      "category": "General",
-      "categoryId": "DIC_kwDOPllfK84CvUpx",
-      "mapping": "pathname",
-      "strict": "0",
-      "reactions": "1",
-      "metadata": "0",
-      "inputPosition": "bottom",
-      "theme": "preferred_color_scheme",
-      "lang": "en",
-      "loading": "lazy"
+      "repo": "",
+      "repoId": "",
+      "category": "",
+      "categoryId": "",
+      "mapping": "",
+      "strict": "",
+      "reactions": "",
+      "metadata": "",
+      "inputPosition": "",
+      "theme": "",
+      "lang": "",
+      "loading": ""
     }
   },
   "deployment": {
@@ -220,5 +220,6 @@
   },
   "availableThemes": "default",
   "customThemes": "",
-  "customThemeGenerationEnabled": false
+  "customThemeGenerationEnabled": false,
+  "removeRibbonIcon": false
 }
