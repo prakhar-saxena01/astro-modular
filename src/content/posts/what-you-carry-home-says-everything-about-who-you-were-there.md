@@ -9,7 +9,7 @@ tags:
   - movement
   - art
   - souvenirs
-image: "[[attachments/souvenir.png]]"
+image: "https://images.unsplash.com/photo-1758243116169-357312bc370b?auto=format&fit=crop&w=1200&q=80"
 imageAlt: souvenirs
 imageOG: true
 hideCoverImage: false
